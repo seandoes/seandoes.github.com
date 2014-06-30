@@ -1,0 +1,53 @@
+body {
+    /*
+    background: url("https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-3pc6w/images/splash.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    */
+    color: gray;
+    font-family: Helvetica;
+}
+p {
+    font-size: 18px;
+}
+input {
+  border: 0;
+  padding: 12px;
+  font-size: 18px;
+}
+
+input[type="email"] {
+    width: 660px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: PowderBlue; 
+}
+
+input[type="submit"] {
+  background: CornflowerBlue;
+  color: PowderBlue;
+  width: 100px;
+
+}
+
+#avatar{
+  float: left;
+  margin: 10px;
+}
+
+ul
+{
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+button {
+  border: 0;
+  padding: 12px;
+  font-size: 18px;
+  background: CornflowerBlue;
+  color: PowderBlue;
+  width: 800px;
+}

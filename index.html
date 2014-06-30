@@ -1,33 +1,20 @@
 <!DOCTYPE html>
 <head>
-<style>
-body {
-    text-align:center;
-    background: url("https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-3pc6w/images/splash.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
-    font-family: Helvetica;
-}
-p {
-    font-size: 24px;
-}
-input {
-  border: 0;
-  padding: 12px;
-  font-size: 18px;
-}
-input[type="submit"] {
-  background: limegreen;
-  color: black;
-}
-</style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<img src="https://scontent-a.xx.fbcdn.net/hphotos-xpa1/t1.0-9/10455649_10104762125244770_8369432678153716356_n.jpg" height="250" width="250">
-<p>Guy does code. Hilarity ensues.</p>
-<input type='email' placeholder='Email'/>
-<input type='submit' />
+<h1>Sean Doe-Simkins</h1>
+<h2>Guy does code. Hilarity ensues.</h2>
+<img id="avatar" src="resources/seans_mug.jpg" height="250" width="250">
+<p>Over the course of the last 18 months I have been working on going from a terrible developer to a mediocre developer. To be fair: I was brand new, which might explain being terrible, but still...it's been a real trip. Have a look at some of the stuff I've been working on!</p>
+<ul>
+<li><button type="button">Take the Solar System for a Spin</button></li>
+<li><button type="button">Click the Button for My Second Highlight Project That Doesn't Exist Yet</button></li>
+<li><button type="button">Peruse My Code Portfolio</button></li>
+</ul>
+
+<form action="mailto:sean@seandoes.com" method="post" enctype="text/plain">
+<input type='email' placeholder='Intrigued? Of course you are. Get in touch!'/>
+<input type='submit' name="submit" value="Submit"/>
+</form>
 </body>
